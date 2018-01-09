@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Health Manager</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Strings related to Calorie and Med Activity -->
+    <string name="calorie_counter_title">Calorie Counter</string>
+    <string name="calorie_counter_description">This will Manage your Daily Calorie Intake and help you be in shape.</string>
+    <string name="med_rem_title">Pill Reminder</string>
+    <string name="med_rem_descrip">This will help in Managing the Medicine taking Schedule and reminding when to buy medicine.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="toolbar_label">Health Manager</string>
+    <string name="title_activity_main_calorie">MainCalorie</string>
+    <string name="total_calorie">Total Calorie Allowed Today</string>
+    <string name="calorie_took">Calorie Consumed</string>
+    <string name="calorie_remaining">Calorie Free</string>
+    <string name="na">Will be displayed</string>
+    <string name="add_food">Going to </string>
+</resources>
