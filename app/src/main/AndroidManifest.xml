@@ -27,7 +27,10 @@
             android:name=".MainActivity"
             android:label="@string/toolbar_label"
             android:theme="@style/AppTheme" />
-        <activity android:name=".MainCalorie"></activity>
+        <activity android:name=".MainCalorie" />
+        <activity android:name=".Add_Total_Calorie" />
+        <activity android:name=".add_food" />
+        <activity android:name=".suggestions"></activity>
     </application>
 
 </manifest>
