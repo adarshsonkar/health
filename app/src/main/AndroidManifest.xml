@@ -27,10 +27,20 @@
             android:name=".MainActivity"
             android:label="@string/toolbar_label"
             android:theme="@style/AppTheme" />
-        <activity android:name=".MainCalorie" />
-        <activity android:name=".Add_Total_Calorie" />
-        <activity android:name=".add_food" />
-        <activity android:name=".suggestions"></activity>
+        <activity android:name=".MainCalorie"
+            android:label="@string/calorie_counter_title"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Add_Total_Calorie"
+            android:label="@string/total_calorie"
+            android:parentActivityName=".MainCalorie"/>
+        />
+        <activity android:name=".add_food"
+            android:label="@string/add_food"
+            android:parentActivityName=".MainCalorie"/>
+        />
+        <activity android:name=".suggestions"
+            android:label="@string/suggestions"
+            android:parentActivityName=".MainCalorie"/>
     </application>
 
 </manifest>

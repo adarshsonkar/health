@@ -39,4 +39,5 @@
     <string name="Type">Type</string>
     <string name="Calorie">Calorie</string>
     <string name="add">ADD</string>
+    <string name="suggestions_to_eat">Suggestions To Eat Today:</string>
 </resources>
