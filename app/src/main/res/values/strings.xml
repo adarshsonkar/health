@@ -21,9 +21,23 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="toolbar_label">Health Manager</string>
     <string name="title_activity_main_calorie">MainCalorie</string>
-    <string name="total_calorie">Total Calorie Allowed Today</string>
+    <string name="total_calorie_allowed">Total Calorie Allowed Today</string>
     <string name="calorie_took">Calorie Consumed</string>
     <string name="calorie_remaining">Calorie Free</string>
     <string name="na">Will be displayed</string>
     <string name="add_food">Going to </string>
+    <string name="add_button">ADD Total Calorie</string>
+    <string name="adjust_button">Adjust Total Calorie</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="note_view">Note:</string>
+    <string name="under_note">Will be updated soon enough.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_addfood_activity">addfood_activity</string>
+    <string name="total_calorie">Total Calorie</string>
+    <string name="enter">Enter</string>
+    <string name="food_name">Item Name</string>
+    <string name="Type">Type</string>
+    <string name="Calorie">Calorie</string>
+    <string name="add">ADD</string>
+    <string name="suggestions_to_eat">Suggestions To Eat Today:</string>
 </resources>

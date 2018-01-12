@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:onClick="open_calorie_counter"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="0dp"
@@ -47,7 +48,46 @@
 
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="open_calorie_counter"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@drawable/healthylife"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#FFFFFF"
+                android:text="@string/calorie_counter_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#FFFFFF"
+                android:text="@string/calorie_counter_description"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
